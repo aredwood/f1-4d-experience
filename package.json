@@ -1,0 +1,20 @@
+{
+  "name": "f1-4d-experience",
+  "version": "0.1.0",
+  "main": "./dist/main.js",
+  "author": "Alex Redwood",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "nodemon": "nodemon"
+  },
+  "dependencies": {
+    "@serialport/parser-readline": "^9.2.4",
+    "@types/serialport": "^8.0.2",
+    "f1-2021-udp": "^1.12.5",
+    "nodemon": "^2.0.15",
+    "serialport": "^9.2.8",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
